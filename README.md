@@ -15,7 +15,7 @@ Images will be classified as the following 10 classes:
  - Chimpanzee
  - Elephant
 
-## Requirements/Dependicies
+## Requirements/Dependencies
 Before running the scripts, be sure to have the required packages installed. To install the necessary packages you may run:
 
     pip install -r requirements.txt
