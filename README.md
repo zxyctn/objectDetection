@@ -18,10 +18,10 @@ Images will be classified as the following 10 classes:
 ## Requirements/Dependicies
 Before running the scripts, be sure to have the required packages installed. To install the necessary packages you may run:
 
-    `pip install -r requirements.txt`
+    pip install -r requirements.txt
 or
 
-    `pip3 install -r requirements.txt`
+    pip3 install -r requirements.txt
 ## Pre-Processing
 To get the **ResNet50** features from the images, normalization is necessary as the **ResNet50** model only accepts (224 x 224) sized images. Images will be padded and resized as (224  x 224) before feature extraction. 
 
@@ -33,10 +33,10 @@ To get the **ResNet50** features from the images, normalization is necessary as 
 
 To start the pre-training you may run the script as:
 
-    `python pre_training.py`
+    python pre_training.py
 or 
 
-    `python3 pre_training.py`
+    python3 pre_training.py
 
 When the script runs and finishes, features and labels will be stored in the **lib** directory titled as:
 
@@ -52,10 +52,10 @@ When the script runs and finishes, features and labels will be stored in the **l
  
  To start training you may run the script as:
  
-    `python training.py`
+    python training.py
 or 
 
-    `python3 training.py`
+    python3 training.py
     
 When run, script is going to print iteration, loss and accuracy information in the terminal for each 100 iterations.
 ## Testing
@@ -63,10 +63,10 @@ To start testing you may run **main.py** python script which is going to call **
 
 To start testing you may the script as:
 
-    `python main.py`
+    python main.py
 or
 
-    `python3 main.py`
+    python3 main.py
 
 After script's execution is finished, a new directory titled as **results** will be created where all the testing images with candidate windows and labels are stored in the PNG format titled as **result_FileName.png** (for ex: *result_42.png* for 42.jpeg)
 
