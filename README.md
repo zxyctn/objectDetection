@@ -46,7 +46,7 @@ When the script runs and finishes, features and labels will be stored in the **l
  - **labels_test.json**
  
  ## Training
- **src/training.py** script when run, is going to train a FFN model with features and labels saved in the pre-training stage. 
+ **training.py** script when run, is going to train a FFN model with features and labels saved in the pre-training stage. 
  
  *Note*: saved and trained model is currently stored in the **lib** directory as **model.pt** with 95% accuracy and ~0.0005 loss.
  
