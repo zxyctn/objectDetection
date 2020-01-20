@@ -61,7 +61,7 @@ When run, script is going to print iteration, loss and accuracy information in t
 ## Testing
 To start testing you may run **main.py** python script which is going to call **testing.py**. While running, script is going to print the currently tested filename in the terminal. This process may take a while depending on the machine hardware.
 
-To start testing you may the script as:
+To start testing you may run the script as:
 
     python main.py
 or
